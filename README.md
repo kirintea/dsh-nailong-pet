@@ -1,6 +1,8 @@
 # DSH 奶龙桌宠插件 🐉
 
-为 DSH (DeepSeek Harness) Web 界面制作的奶龙桌面宠物插件，灵感来自 [nailong-codex-pet](https://github.com/.../nailong-codex-pet)。
+为 DSH (DeepSeek Harness) Web 界面制作的奶龙桌面宠物插件，灵感来自 [nailong-codex-pet](https://github.com/Tomorins/nailong-codex-pet)。
+
+![alt text](image.png)
 
 ## 功能
 
@@ -21,7 +23,8 @@
 ## 安装
 
 ```powershell
-cd E:\DSH\workspace\dsh-nailong-pet
+git clone https://github.com/kirintea/dsh-nailong-pet.git
+cd dsh-nailong-pet
 dsh plugin --profile desktop add link:.
 ```
 
@@ -98,13 +101,7 @@ dsh-nailong-pet/
 - 走完一段停 3~6 秒
 - 用户有任何交互 → 闪现回原位
 
-## 与鲸鱼插件共存
 
-自动检测 `.dshwv-root` 鲸鱼挂件位置：
-- 鲸鱼在右下角 → 奶龙默认左下角
-- 鲸鱼在左下角 → 奶龙默认右下角
-- 未检测到 → 奶龙默认右下角
+## 许可证
 
-## 权利说明
-
-本项目是非官方个人插件项目，与"奶龙"相关权利方及 OpenAI 均无隶属、合作、赞助或授权关系。角色形象、名称及相关知识产权归各自权利人所有。
+本项目基于 MIT License 开源，详见 LICENSE。
